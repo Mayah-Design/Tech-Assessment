@@ -17,7 +17,7 @@ public class RoomController {
         this.service = service;
     }
 
-    // TODO
+    // USE IF HELPFUL
     @GetMapping("/fit")
     public boolean canFit(
         @RequestParam double roomWidth,
@@ -28,16 +28,12 @@ public class RoomController {
         return service.canFit(roomWidth, roomLength, furnitureWidth, furnitureLength);
     }
 
-    // TODO
-    @PostMapping("/design")
-    public RoomDesignResponse designRoom(@RequestBody RoomDesignRequest request) {
-        return new RoomDesignResponse();
-    }
-
-    // TODO
+    // USE IF HELPFUL
     @GetMapping("/furniture")
     public List<FurnitureItem> getFurnitureItems() {
-        return service.getFurnitureCatalog(); // or static JSON
+        return service.getFurnitureCatalog();
     }
+
+    // ADD OTHER REST APIs HERE ...
 
 }
