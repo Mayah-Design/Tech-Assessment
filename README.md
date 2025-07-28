@@ -53,10 +53,10 @@ The API will be available at: [http://localhost:8080/api](http://localhost:8080/
 ## Candidate Tasks to Complete
 
 1. **Implement Backend Logic**  
-   Complete the `RoomService` to return furniture items that fit within a given room. Given a room and its dimensions, the service should calculate which furniture objects can fit inside — accounting for the space already occupied by any selected items (e.g. sofa, coffee table, side table).
+   Complete the `RoomService` to return furniture items that fit within a given room. Given a room and its dimensions, the service should calculate which furniture objects can fit inside, accounting for the space already occupied by any selected items (e.g. sofa, coffee table, side table). Feel free to add, update, and remove any pre-existing APIs / controller methods in the backend service.
 
 2. **Build Frontend UX**
-   Create an elegant user interface to display selected furniture in a room. Demonstrate best practices in React component design, state management, and styling.
+   Create an elegant user interface to display selected furniture in a room. Demonstrate best practices in React component design, state management, and styling. **Take a screenshot of your final, beautiful UX!**
 
 3. **System Design Questions**
    Answer the system design questions in `system-design/system-design-questions.md`.
@@ -65,5 +65,4 @@ The API will be available at: [http://localhost:8080/api](http://localhost:8080/
 
 ## Submission
 
-When you're finished, please submit a pull request to this repository with your name in the comment.
-Thank you, and good luck!
+When you're finished, please submit a pull request to this repository. Include your name, the UX screenshot, and any additional comments we should know. Thank you, and good luck!
